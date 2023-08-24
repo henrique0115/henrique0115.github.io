@@ -6,8 +6,8 @@ $(document).ready(function() {
     // Adjusting loading page //
     $(".loading").delay(1000).addClass("loaded");
 
-    var experience_time = Math.trunc(10 * (new Date() - new Date('2016-01-01')) / (86400 * 365 * 1000)) / 10;
-    var age_time = Math.trunc((new Date() - new Date('1994-11-10')) / (86400 * 365 * 1000));
+    var experience_time = Math.trunc(10 * (new Date() - new Date('2009-01-01')) / (86400 * 365 * 1000)) / 10;
+    var age_time = Math.trunc((new Date() - new Date('1985-8-13')) / (86400 * 365 * 1000));
     $(".exp").text(experience_time);
     $(".age").text(age_time);
 
