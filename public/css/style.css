@@ -1307,6 +1307,11 @@ a.selected-item:before, .side-menu a:hover:before {
     max-width: 500px;
     margin: 0 auto
 }
+
+#contact-form label{
+    display:block;
+}
+
 #contact-form input,
 #contact-form textarea {
     display: block;
@@ -1315,7 +1320,7 @@ a.selected-item:before, .side-menu a:hover:before {
     border-radius: 4px;
     border: none;
     margin-bottom: 10px;
-    background: #fff;
+    background: #eee;
     color: #000;
     transition: .5s ease all
 }
@@ -1345,7 +1350,7 @@ a.selected-item:before, .side-menu a:hover:before {
 #contact-form input:focus,
 #contact-form textarea:focus {
     outline: none;
-    background: #fff
+    background: #ddd
 }
 
 #contact-form textarea {
@@ -1360,7 +1365,7 @@ a.selected-item:before, .side-menu a:hover:before {
     border-radius: 4px;
     padding: 5px 10px;
     border: none;
-    color: #000;
+    color: #fff;
     font-weight: 700;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: .5s ease all
