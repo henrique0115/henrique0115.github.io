@@ -1291,6 +1291,18 @@ a.selected-item:before, .side-menu a:hover:before {
 			Start  Contact Section
 ----------------------------------------- */
 
+#contact {
+    padding: 50px 15px;
+    background: #333333;
+    text-align: center
+}
+
+#contact h2 {
+    margin: 0 0 15px 0;
+    color: #fff;
+    font-weight: 500
+}
+
 #contact-form {
     max-width: 500px;
     margin: 0 auto
